@@ -5,13 +5,13 @@ baseurl: '/PanelCV' #change it according to your repository name
 
 
 
-# Profile information
-yourname: FANTASTIC FIVE  ## put your name
-title: 'GRAPHIC &amp; WEB DESIGNER'  ## your title
+# User information
+yourname: UserName LastName  ## put your name
+title: 'SOMETHING ABOUT USER'  ## your title
 location: Detroit , MI
 
 
-## Social Profiles
+## Social team
 facebook: http://www.facebook.com  ## your facebook account url
 twitter: http://www.twitter.com  ## your twitter account url
 linkedin: http://www.linkedin.com  ## your linkedin account url
