@@ -34,11 +34,11 @@ layout: default
 
 <div class="row">
 
-<!-- profile -->
+<!-- settings -->
 <div class="col-md-3 widget-profil">
 <div class="row">
 
-    <!-- Profile Image -->
+    <!-- settings Image -->
     <div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 ">
 
 
@@ -57,36 +57,36 @@ layout: default
 
         </div>
 
-        <!-- style for simple image profile -->
+        <!-- style for simple image settings -->
    		<div class="circle-img" id="pic_prof_2" style="display:none"></div>
 
 
     </div>
-    <!-- End Profile Image -->
+    <!-- End settings Image -->
 
-    <!-- Begin profile information -->
+    <!-- Begin settings information -->
     <div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
-        <!-- Profile info -->
-        <div id="profile_info">
+        <!-- settings info -->
+        <div id="settings_info">
             <h1 id="name" class="transition-02">{{ site.yourname }}</h1>
             <h4 class="line">{{ site.title }}</h4>
             <h6><span class="fa fa-map-marker"></span> {{ site.location }}</h6>
         </div>
-        <!-- End Profile info -->
+        <!-- End settings info -->
 
 
-        <!-- Profile Description -->
-        <div id="profile_desc">
+        <!-- settings Description -->
+        <div id="settings_desc">
             <p>
             	SOMETHING NICE ABOUT THE WEATHER
             </p>
 
         </div>
-        <!-- End Profile Description -->
+        <!-- End settings Description -->
 
 
         <!-- Name -->
-         <div id="profile_social">
+         <div id="settings_social">
             <h6>Share my driveway</h6>
 
             <a href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
@@ -97,20 +97,21 @@ layout: default
             <div class="clear"></div>
         </div>
         <!-- End Name -->
-
-        <div id="profile_desc">
+        <!--
+        <div id="settings_desc">
             <p>
                 More Templates <a href="https://github.com/jekyller" target="_blank" title="jekyller" class="a-footer">Jekyller</a> and <a href="https://themeforest.net/item/flexyvcard-responsive-vcard-template-/7158750" target="_blank" title="flexycodes" class="a-footer">Flexycodex</a>
             </p>
 
         </div>
+         -->
 
     </div>
-    <!-- End profile information -->
+    <!-- End settings information -->
 
 </div>
 </div>
-<!-- end profile -->
+<!-- end settings -->
 
 <div class="col-md-9 flexy_content" style="padding-left: 0;padding-right: 0;">
 
@@ -118,8 +119,8 @@ layout: default
 <div id="verticalTab">
 
     <ul class="resp-tabs-list">
-        <li class="tabs-profile hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a profile" data-tab-name="profile">
-            <span class="tite-list">profile</span>
+        <li class="tabs-settings hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a settings" data-tab-name="settings">
+            <span class="tite-list">settings</span>
             <i class="fa fa-user icon_menu icon_menu_active"></i>
         </li>
 
@@ -153,7 +154,7 @@ layout: default
 <!-- resp-tabs-container -->
 <div class="resp-tabs-container">
 
-{% include /profile.html %}
+{% include /settings.html %}
 
 {% include /cv.html %}
 
@@ -211,15 +212,15 @@ layout: default
     </div>
     <div>
 
-        <h3 class="layouts">Profile Image</h3>
+        <h3 class="layouts">settings Image</h3>
         <div id="show">
 
             <div class="clean-check">
 
-                <input type="radio" id="r1" name="style_profile" value="style_profile_1" checked="checked" />
+                <input type="radio" id="r1" name="style_settings" value="style_settings_1" checked="checked" />
                 <label for="r1"><span></span>Rotating image</label>
 
-                <input type="radio" id="r2" name="style_profile" value="style_profile_2" />
+                <input type="radio" id="r2" name="style_settings" value="style_settings_2" />
                 <label for="r2"><span></span>Fixed image</label>
 
             </div>
